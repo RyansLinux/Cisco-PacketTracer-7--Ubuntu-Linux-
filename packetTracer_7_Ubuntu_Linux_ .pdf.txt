@@ -1,0 +1,84 @@
+﻿-Jan-7, 2017-
+ Ryan-Finch / Student-Developer / @Git-Hub   
+
+
+   
+ -Cisco Packet Tracer 7 Install on Os Ubuntu / Linux / 32 & 64 bit-
+-My Install: Ubuntu / Linux / 14.04, 32 bit / Distro Backbox/ -Lenovo / Thinkpad ,
+ -Doc found on Youtube in Espanol;   
+
+
+Download
+-Choose the OS /Distro you are using and download the relevant files ;
+-https: //www.netacad.com/group/offerings/packet-tracer/
+
+
+-The File name / path will vary depending on your download destination etc.
+-The File Path will need to be edited, and executed accordingly in thr Cmd Terminal ,
+-Example; Finch@ThinkPad:~$ Sudo chmod +x Home / Desktop / downloads/PacketTracer7.tar.gz
+
+
+Start-
+Open terminal (ctrl+ Alt + t) , Then use the following commands :
+➢ ls Downloads
+( you will see the files listed which are in the folder,
+.... Downloads / PacketTracer7.tar.gz)
+
+
+-Then: ➢ chmod +x Downloads/PacketTracer7.tar.gz
+      -Then:➢ tar-zxvf Downloads/PacketTracer7.tar.gz
+..... an output will appear, 
+
+
+-Now change file directory (cd) as follows:
+➢ cd PacketTracer70/
+-Now list directory again:
+➢ ls
+.....The following output should appear:
+art eula.txt install saves templates backgrounds extensions languages set_ptenv.sh tpl.linguist bin help lib Sounds tpl.packettracer
+
+
+-Now lets install The File;
+➢ sudo bash install 
+-You may have to enter Root password , then press
+➢ Enter
+
+
+Cisco license agreement will display; keep pressing on the space bar until you go through 100%
+of the terms, where after you will be prompt by:
+-Do you accept the terms of the EULA? (Y)es/(N)o
+➢ Type y or yes then press Enter.
+
+
+-Another prompt again:
+-Enter location to install Cisco Packet Tracer or press enter for default [/opt/pt]: ( I Suggest enter for default location,Unless directed by Administrator )
+-just press
+➢ Enter
+....and the default location will be used.
+________________
+-Again another prompt will appear:
+-should we create a symbolic link "packettracer" in /usr/local/bin for easy Cisco Packet Tracer startup? [Y or n]
+-just press
+➢ y
+-Then
+➢ Enter
+-Now use the list directory command again:
+➢ ls
+.......The output should look like:
+-art eula.txt install saves templates backgrounds extensions languages set_ptenv.sh tpl.linguist bin help lib Sounds tpl.packettracer
+-The needed file is: set_ptenv.sh
+....So the following command should be used now:
+➢ sudo bash set_ptenv.sh
+-Now to execute the program command:
+➢ packettracer
+-Cisco Packet Tracer will open and Cisco username and password
+will be requested to log into your Netacad acct.
+
+
+I hope This works for you ,
+Any Questions please feel free to contact me At the link above,
+ I will do my best to help ;)
+Good Luck
+
+
+Ryan-Finch
