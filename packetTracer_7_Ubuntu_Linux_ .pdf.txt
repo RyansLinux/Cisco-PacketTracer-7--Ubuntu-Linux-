@@ -5,7 +5,6 @@
    
  -Cisco Packet Tracer 7 Install on Os Ubuntu / Linux / 32 & 64 bit-
 -My Install: Ubuntu / Linux / 14.04, 32 bit / Distro Backbox/ -Lenovo / Thinkpad ,
- -Doc found on Youtube in Espanol;   
 
 
 Download
